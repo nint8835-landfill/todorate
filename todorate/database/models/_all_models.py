@@ -2,3 +2,6 @@
 # Should not be imported outside of todorate.migrations.env
 
 from .project import *
+from .tag import *
+from .task import *
+from .user import *

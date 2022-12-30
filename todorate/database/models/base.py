@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Optional, Type, TypeVar
 
-from sqlalchemy import Column, DateTime, Boolean
+from sqlalchemy import Boolean, Column, DateTime
 from sqlalchemy.exc import DataError
 from sqlalchemy.orm import Mapped, Session, declarative_mixin, declared_attr
 
